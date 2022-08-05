@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Rating Predictior</title>
+  <link rel="icon" href="../static/images/icon.png">
+  <link rel="stylesheet" href="../static/styles2.css">
+
+<body>
+
+
+  <div class="hero">
+    <video id="vid1" type="video/mp4" autoplay loop muted plays-inline>
+      <source src="../static/images/vid2.mp4">
+    </video>
+  </div>
+
+  <div class="main">
+    <nav>
+      <a href="index.html" class="disabled"><img src='../static/images/logo.png'" alt='logo' class=" logo"></a>
+
+      <ul>
+        <li><a href="index.html" target="_self">Home</a></li>
+        <li><a href="predictor.html" target="_self" class="active">Predictor</a></li>
+        <li><a href="about.html" target="_self">About Us</a></li>
+      </ul>
+
+    </nav>
+
+    <div class="heading">
+      <h1 id="title1">Welcome to the Predictor</h1>
+      <p id="desc">Enter the details to get the Rating!</p>
+    </div>
+
+    <div class="form1">
+      <h2 id="form-head">Predictor Form</h2>
+      <hr id="hr1">
+
+      <form action="#">
+        <div class="fields">
+
+          <div class="r1">
+            <!-- RESTAURANT TYPE-->
+            <Label for="Restaurant Type" id="Rest-Type">Restaurant Type</Label>
+            <select name="Restaurant Type" id="RT" required="required">
+              <option>Select-Rest-Type</option>
+              <option value="Casual Dining">Casual Dining</option>
+            </select>
+
+            <!-- CUISINES -->
+            <Label for="Cuisines" id="Cuisines">Cuisines</Label>
+            <select name="Cuisines" id="C" required="required">
+              <option>Select-Cuisines</option>
+              <option value="North Indian">North Indian</option>
+            </select>
+          </div>
+
+          <div class="r2">
+            <!-- ONLINE ORDER -->
+            <Label for="Online Order Facility" id="Online-Order">Online Order Facility</Label>
+            <select name="Online Order Facility" id="OO" required="required">
+              <option>-Select-</option>
+              <option value="Yes">Yes</option>
+              <option value="Yes">No</option>
+            </select>
+
+
+            <!-- BOOK TABLE -->
+            <Label for="Book Table Facility" id="Book-Table">Book Table Facility</Label>
+            <select name="Book Table Facility" id="BT" required="required">
+              <option>-Select-</option>
+              <option value="Yes">Yes</option>
+              <option value="Yes">No</option>
+            </select>
+          </div>
+
+          <div class="r3">
+            <!-- MEAL TYPE -->
+            <Label for="Meal-Type" id="Meal-Type">Meal Type</Label>
+            <select name="Meal Type" id="MT" required="required">
+              <option>Select-Meal-Type</option>
+              <option value="Buffet">Buffet</option>
+            </select>
+
+            <!-- COST FOR TWO PEOPLE -->
+            <Label for="Cost For Two People" id="Cost">Cost For Two People</Label>
+            <input type="number" name="Cost For Two People" placeholder="-Enter-Cost-">
+          </div>
+
+
+
+          <div class="r4">
+            <Label for="No. of Votes" id="Votes">No. of Votes</Label>
+            <input type="number" name="No. of Votes" id="V" required="required" placeholder="Enter-Votes">
+          </div>
+
+        </div>
+
+        <div class="submit">
+          <button id="Submit" type="submit">Submit</button>
+        </div>
+
+      </form>
+    </div>
+
+    <!-- PREDICTOR WINDOW -->
+    <div class="pred">
+      <p id="pred-text">Expected Rating</p>
+      <hr id="hr2">
+      <p id="rating"> 4.1 / 5</p>
+    </div>
+    
+    <footer>
+      <p id="end-text">Created by Ritik Ratnawat | Vedant Deshmukh | Utkarsh Yeole • &#169 2022 </p>
+    </footer>
+
+  </div>
+
+
+
+</body>
+
+</html>
