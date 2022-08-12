@@ -8,8 +8,10 @@
   <title>Restaurant Rating Predictior</title>
   <link rel="icon" href="../static/images/icon.png">
   <link rel="stylesheet" href="../static/styles2.css">
+  <script type="text/javascript" src="../static/script.js"></script>
+</head>
 
-<body>
+<body onload="addOptions()">
 
 
   <div class="hero">
@@ -20,7 +22,7 @@
 
   <div class="main">
     <nav>
-      <a href="index.html" class="disabled"><img src='../static/images/logo.png'" alt='logo' class=" logo"></a>
+      <a href="index.html" class="disabled"><img src='../static/images/logo.png' alt='logo' class="logo"></a>
 
       <ul>
         <li><a href="/" target="_self">Home</a></li>
@@ -45,32 +47,26 @@
           <div class="r1">
             <!-- RESTAURANT TYPE-->
             <Label for="Restaurant Type" id="Rest-Type">Restaurant Type</Label>
-            <select name="Restaurant Type" id="RT" required="required">
-              <option>Select-Rest-Type</option>
-              <option value="Casual Dining">Casual Dining</option>
-            </select>
+            <select name="Restaurant Type" id="RT" required></select>
 
             <!-- CUISINES -->
             <Label for="Cuisines" id="Cuisines">Cuisines</Label>
-            <select name="Cuisines" id="C" required="required">
-              <option>Select-Cuisines</option>
-              <option value="North Indian">North Indian</option>
-            </select>
+            <select name="Cuisines" id="C" required></select>
           </div>
 
           <div class="r2">
             <!-- ONLINE ORDER -->
             <Label for="Online Order Facility" id="Online-Order">Online Order Facility</Label>
-            <select name="Online Order Facility" id="OO" required="required">
+            <select name="Online Order Facility" id="OO" required>
               <option>-Select-</option>
               <option value="Yes">Yes</option>
-              <option value="Yes">No</option>
+              <option value="No">No</option>
             </select>
 
 
             <!-- BOOK TABLE -->
             <Label for="Book Table Facility" id="Book-Table">Book Table Facility</Label>
-            <select name="Book Table Facility" id="BT" required="required">
+            <select name="Book Table Facility" id="BT" required>
               <option>-Select-</option>
               <option value="Yes">Yes</option>
               <option value="Yes">No</option>
@@ -78,11 +74,11 @@
           </div>
 
           <div class="r3">
-            <!-- MEAL TYPE -->
-            <Label for="Meal-Type" id="Meal-Type">Meal Type</Label>
-            <select name="Meal Type" id="MT" required="required">
-              <option>Select-Meal-Type</option>
-              <option value="Buffet">Buffet</option>
+            <!-- LOCATIONS -->
+            <Label for="Location" id="Location">Location</Label>
+            <select name="Location" id="L" required>
+              <option>Select-Location</option>
+              <option value="BTM">BTM</option>
             </select>
 
             <!-- COST FOR TWO PEOPLE -->

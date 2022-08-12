@@ -177,7 +177,7 @@ nav li a:hover {
 
 .fields #Rest-Type,
 #Online-Order,
-#Meal-Type,
+#Location,
 #Votes {
     font-size: 20px;
     margin-right: 40px;
@@ -204,7 +204,7 @@ nav li a:hover {
 #Cost{
     font-size: 20px;
     margin-right: 40px;
-    margin-left: 110px;
+    margin-left: 140px;
     margin-bottom: 25px;
     z-index: 2;
 }
