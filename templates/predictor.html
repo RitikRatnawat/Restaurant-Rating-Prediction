@@ -47,11 +47,15 @@
           <div class="r1">
             <!-- RESTAURANT TYPE-->
             <Label for="Restaurant Type" id="Rest-Type">Restaurant Type</Label>
-            <select name="Restaurant Type" id="RT" required></select>
+            <select name="Restaurant Type" id="RT" required multiple>
+              <option value="null">Select-Rest-Type</option>
+            </select>
 
             <!-- CUISINES -->
             <Label for="Cuisines" id="Cuisines">Cuisines</Label>
-            <select name="Cuisines" id="C" required></select>
+            <select name="Cuisines" id="C" required multiple>
+              <option value="null">Select-Cuisines</option>
+            </select>
           </div>
 
           <div class="r2">
@@ -77,19 +81,18 @@
             <!-- LOCATIONS -->
             <Label for="Location" id="Location">Location</Label>
             <select name="Location" id="L" required>
-              <option>Select-Location</option>
-              <option value="BTM">BTM</option>
+              <option value="null">Select-Location</option>
             </select>
 
             <!-- COST FOR TWO PEOPLE -->
             <Label for="Cost For Two People" id="Cost">Cost For Two People</Label>
-            <input type="number" name="Cost For Two People" placeholder="-Enter-Cost-" required>
+            <input type="number" name="Cost For Two People" placeholder="- Enter Cost -" required>
           </div>
 
           <div class="r4">
             <!-- NUMBER OF VOTES -->
             <Label for="No. of Votes" id="Votes">No. of Votes</Label>
-            <input type="number" name="No. of Votes" id="V" placeholder="Enter-Votes" required>
+            <input type="number" name="No. of Votes" id="V" placeholder="- Enter Votes -" required>
           </div>
 
         </div>
