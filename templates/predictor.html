@@ -35,6 +35,7 @@
     <div class="heading">
       <h1 id="title1">Welcome to the Predictor</h1>
       <p id="desc">Enter the details to get the Rating!</p>
+      <p id="note">NOTE: Hold down the Ctrl (windows) or Command (Mac) button to select multiple options in Restaurant Type and Cuisines. </p>
     </div>
 
     <div class="form1">
@@ -60,17 +61,17 @@
 
           <div class="r2">
             <!-- ONLINE ORDER -->
-            <Label for="Online Order Facility" id="Online-Order">Online Order Facility</Label>
-            <select name="Online Order Facility" id="OO" required>
-              <option>-Select-</option>
+            <Label for="online_order" id="Online-Order">Online Order Facility</Label>
+            <select name="online_order" id="OO" required>
+              <option >-Select-</option>
               <option value="Yes">Yes</option>
               <option value="No">No</option>
             </select>
 
 
             <!-- BOOK TABLE -->
-            <Label for="Book Table Facility" id="Book-Table">Book Table Facility</Label>
-            <select name="Book Table Facility" id="BT" required>
+            <Label for="book_table" id="Book-Table">Book Table Facility</Label>
+            <select name="book_table" id="BT" required>
               <option>-Select-</option>
               <option value="Yes">Yes</option>
               <option value="No">No</option>
@@ -85,14 +86,14 @@
             </select>
 
             <!-- COST FOR TWO PEOPLE -->
-            <Label for="Cost For Two People" id="Cost">Cost For Two People</Label>
-            <input type="number" name="Cost For Two People" placeholder="- Enter Cost -" required>
+            <Label for="approx_cost" id="Cost">Cost For Two People</Label>
+            <input type="number" name="approx_cost" min="300" placeholder="- Enter Cost -" required>
           </div>
 
           <div class="r4">
             <!-- NUMBER OF VOTES -->
-            <Label for="No. of Votes" id="Votes">No. of Votes</Label>
-            <input type="number" name="No. of Votes" id="V" placeholder="- Enter Votes -" required>
+            <Label for="votes" id="Votes">No. of Votes</Label>
+            <input type="number" name="votes" id="V" min="1" placeholder="- Enter Votes -" required>
           </div>
 
         </div>

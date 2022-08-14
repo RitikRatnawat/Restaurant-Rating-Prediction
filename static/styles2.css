@@ -92,7 +92,7 @@ nav li a:hover {
     height: 17vh;
     margin-top: 15vh;
     padding: 15px;
-    overflow: hidden;
+    overflow: flex;
 }
 
 .heading #title1 {
@@ -121,10 +121,22 @@ nav li a:hover {
 
 }
 
+.heading #note{
+    text-align: center;
+    color: white;
+    margin-top: 23px;
+    text-shadow: 2px 2px #000000;
+    font-size: 18px;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    z-index: 2;
+    margin-bottom: 100px;
+}
+
 .form1 {
     position: relative;
     background-color: rgba(0, 0, 0, .5);
-    margin-top: 50px;
+    margin-top: 98px;
     width: 60%;
     height: 700px;
     margin-bottom: 30px;
@@ -204,13 +216,9 @@ nav li a:hover {
 #Cost{
     font-size: 20px;
     margin-right: 40px;
-    margin-left: 140px;
+    margin-left: 30px;
     margin-bottom: 25px;
     z-index: 2;
-}
-
-::placeholder{
-    color: white;
 }
 
 .fields select {
@@ -226,8 +234,12 @@ nav li a:hover {
     background-color: rgba(0, 0, 0, 0);
 }
 
-.fields option{
+.r1 option{
     color: white;
+}
+
+.r2 option, .r3 option, .r4 option{
+    color: black;
 }
 
 .fields input {
