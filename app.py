@@ -3,6 +3,8 @@ import pandas as pd
 import pickle
 import sklearn
 
+file = open("rate_predict.pkl", "rb")
+model = pickle.load(file)
 
 app = Flask(__name__)
 
@@ -78,6 +80,35 @@ def predictor():
         approx_cost = request.form["approx_cost"]
         data['approx_cost'] = float(approx_cost)
         
+        # Location of the Restaurant
+        location = request.form["location"]
+        
+        if location != "null":
+            data[location] = 1
+            
+        # Restaurant Type
+        rest_type = request.form.getlist("rest_type")
+        
+        for rt in rest_type:
+            if rt != "null":
+                data[rt] = 1
+            
+        # Cuisines
+        cuisines = request.form.getlist("cuisines")
+        
+        for cuisine in cuisines:
+            if cuisine != "null":
+                data[cuisine] = 1
+                
+        
+        # Making Predictions
+        df = pd.DataFrame(data, index=[1])
+        x_input = df.values
+        
+        rate = model.predict(x_input)[0]
+        
+        
+        return render_template("predictor.html", prediction_text=f" {round(rate, 1)} / 5")
      
     return render_template("predictor.html")
 

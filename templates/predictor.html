@@ -42,26 +42,26 @@
       <h2 id="form-head">Predictor Form</h2>
       <hr id="hr1">
 
-      <form action="#">
+      <form action="/predictor" method="POST">
         <div class="fields">
 
           <div class="r1">
             <!-- RESTAURANT TYPE-->
-            <Label for="Restaurant Type" id="Rest-Type">Restaurant Type</Label>
-            <select name="Restaurant Type" id="RT" required multiple>
+            <Label for="RT" id="Rest-Type">Restaurant Type</Label>
+            <select name="rest_type" id="RT" required multiple>
               <option value="null">Select-Rest-Type</option>
             </select>
 
             <!-- CUISINES -->
-            <Label for="Cuisines" id="Cuisines">Cuisines</Label>
-            <select name="Cuisines" id="C" required multiple>
+            <Label for="C" id="Cuisines">Cuisines</Label>
+            <select name="cuisines" id="C" required multiple>
               <option value="null">Select-Cuisines</option>
             </select>
           </div>
 
           <div class="r2">
             <!-- ONLINE ORDER -->
-            <Label for="online_order" id="Online-Order">Online Order Facility</Label>
+            <Label for="OO" id="Online-Order">Online Order Facility</Label>
             <select name="online_order" id="OO" required>
               <option >-Select-</option>
               <option value="Yes">Yes</option>
@@ -70,7 +70,7 @@
 
 
             <!-- BOOK TABLE -->
-            <Label for="book_table" id="Book-Table">Book Table Facility</Label>
+            <Label for="BT" id="Book-Table">Book Table Facility</Label>
             <select name="book_table" id="BT" required>
               <option>-Select-</option>
               <option value="Yes">Yes</option>
@@ -80,19 +80,19 @@
 
           <div class="r3">
             <!-- LOCATIONS -->
-            <Label for="Location" id="Location">Location</Label>
-            <select name="Location" id="L" required>
+            <Label for="L" id="Location">Location</Label>
+            <select name="location" id="L" required>
               <option value="null">Select-Location</option>
             </select>
 
             <!-- COST FOR TWO PEOPLE -->
-            <Label for="approx_cost" id="Cost">Cost For Two People</Label>
-            <input type="number" name="approx_cost" min="300" placeholder="- Enter Cost -" required>
+            <Label for="AC" id="Cost">Cost For Two People</Label>
+            <input id="AC" type="number" name="approx_cost" min="300" placeholder="- Enter Cost -" required>
           </div>
 
           <div class="r4">
             <!-- NUMBER OF VOTES -->
-            <Label for="votes" id="Votes">No. of Votes</Label>
+            <Label for="V" id="Votes">No. of Votes</Label>
             <input type="number" name="votes" id="V" min="1" placeholder="- Enter Votes -" required>
           </div>
 
@@ -109,7 +109,7 @@
     <div class="pred">
       <p id="pred-text">Expected Rating</p>
       <hr id="hr2">
-      <p id="rating"> 4.1 / 5</p>
+      <p id="rating">{{prediction_text}}</p>
     </div>
     
     <footer>
