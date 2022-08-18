@@ -106,9 +106,9 @@ def predictor():
         x_input = df.values
         
         rate = model.predict(x_input)[0]
+        output = f" {round(rate, 1)} / 5"
         
-        
-        return render_template("predictor.html", prediction_text=f" {round(rate, 1)} / 5")
+        return render_template("predictor.html", prediction_text=output)
      
     return render_template("predictor.html")
 
