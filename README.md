@@ -19,25 +19,25 @@ We have used Python Libraries for data analysis and model creation (backend) and
 ### 1. Home Page <br>
 When the User land on our webpage, he/she sees a webpage welcoming them to Restaurant Rating Prediction System and ask them to move further by clicking on the ‘Lets Go!’ button.
 <br><br>
-![MasterHead](https://github.com/vedant-deshmukh/Restaurant-Rating-Prediction/blob/bf6b05d4d49f7417f6023038dffdc0441701cb12/static/images/readme_imgs/des1.gif)
+![MasterHead](https://github.com/RitikRatnawat/Restaurant-Rating-Prediction/blob/d1c54a8d739a84ddde3be92c3d5a8d97894475c1/static/images/readme_imgs/des1.gif)
 <br>
 ### 2. Predictor Page<br>
 This is the next page that can be accessed by clicking on ‘Lets Go!’ button on the homepage or by clicking on predictor tab in the navigation bar on the homepage The user sees various fields asking for information that is required to predict the rating of the restaurant. Once all the inputs are given, user clicks on 'Submit' button. The page refreshes and displays the predicted rating of the restaurant in the section below the form.<br>
 <br>
-![MasterHead](https://github.com/vedant-deshmukh/Restaurant-Rating-Prediction/blob/bf6b05d4d49f7417f6023038dffdc0441701cb12/static/images/readme_imgs/des2.gif)
+![MasterHead](https://github.com/RitikRatnawat/Restaurant-Rating-Prediction/blob/d1c54a8d739a84ddde3be92c3d5a8d97894475c1/static/images/readme_imgs/des2.gif)
 <br>
 
 ### 3. About Us Page <br>
 The About us page holds a short summary about the people who have contributed in building this project. There are social links attached as well in case someone wants to contact the people behind this project.<br>
 <br>
-![MasterHead](https://github.com/vedant-deshmukh/Restaurant-Rating-Prediction/blob/9f550372a6af1e4566fc10a7145c53caf2719924/static/images/readme_imgs/des3.gif)
+![MasterHead](https://github.com/RitikRatnawat/Restaurant-Rating-Prediction/blob/d1c54a8d739a84ddde3be92c3d5a8d97894475c1/static/images/readme_imgs/des3.gif)
 <br>
           
  ## User Input: <br>
  On the predictor page, the user has to provide all the information asked for the prediction. The user can select from the drop down lists , can select multiple enteries from the list and enter input (as asked) in each of the fields. Once, all the asked information is provided, the user clicks on submit button to get the output.<br>
  <br>
- <img alt = "user_input.png" src = "https://github.com/vedant-deshmukh/Restaurant-Rating-Prediction/blob/9f550372a6af1e4566fc10a7145c53caf2719924/static/images/readme_imgs/userinput.png">
+ <img alt = "user_input.png" src = "https://github.com/RitikRatnawat/Restaurant-Rating-Prediction/blob/d1c54a8d739a84ddde3be92c3d5a8d97894475c1/static/images/readme_imgs/userinput.png">
 <br>
 ## Output: <br>
 On the predictor page, the user provides all the asked information and then clicks on submit button. The predicted rating  of the restaurant is displayed to the user below the predictor form <br><br>
-<img alt = "user_output.png" src = "https://github.com/vedant-deshmukh/Restaurant-Rating-Prediction/blob/9f550372a6af1e4566fc10a7145c53caf2719924/static/images/readme_imgs/useroutput.png">
+<img alt = "user_output.png" src = "https://github.com/RitikRatnawat/Restaurant-Rating-Prediction/blob/d1c54a8d739a84ddde3be92c3d5a8d97894475c1/static/images/readme_imgs/useroutput.png">
