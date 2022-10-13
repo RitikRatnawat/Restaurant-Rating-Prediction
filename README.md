@@ -1,4 +1,6 @@
-<h1 align="center"> Restaurant Rating Prediction System </h1><br>
+![alt text](https://github.com/RitikRatnawat/Restaurant-Rating-Prediction/blob/118d8ec2ee1ba3cbe2759f5efcbed1623766eafc/static/images/icon.png)
+<h1 align="center"> Restaurant Rating Prediction System</h1><br>
+![alt text](https://github.com/RitikRatnawat/Restaurant-Rating-Prediction/blob/118d8ec2ee1ba3cbe2759f5efcbed1623766eafc/static/images/icon.png)
 <h3 align="center">This is a project taken under the internship provided by Ineuron.ai.</h3>
 <br><br>
 Live Link : https://restaurant-rating-ml-model.herokuapp.com/  <br>
