@@ -5,6 +5,9 @@
 <br>
 🔗 Demo Video Link: https://youtu.be/ht8WFBb6POs 
 
+## Tech Involved :
+[![My Skills](https://skills.thijs.gg/icons?i=python,flask,html,css,js&theme=light)](https://skills.thijs.gg)
+
 ## 🗒 Problem Statement:<br>
 
 The main goal of this project is to perform extensive Exploratory Data Analysis(EDA) on
