@@ -5,16 +5,16 @@ Live Link : https://restaurant-rating-ml-model.herokuapp.com/  <br>
 <br>
 Demo Video Link: https://youtu.be/ht8WFBb6POs 
 
-## Problem Statement:<br>
+## 🗒 Problem Statement:<br>
 
 The main goal of this project is to perform extensive Exploratory Data Analysis(EDA) on
 the Zomato Dataset and build an appropriate Machine Learning Model that will help
 various Zomato Restaurants to predict their respective Ratings based on certain
 features.
-## What we used? <br>
+## 🗒 What we used? <br>
 We have used Python Libraries for data analysis and model creation (backend) and HTML, CSS and JavaScript for creating Web UI (frontend) for the project.
 
-## Web UI: <br>
+## 🗒 Web UI: <br>
 
 ### 1. Home Page <br>
 When the User land on our webpage, he/she sees a webpage welcoming them to Restaurant Rating Prediction System and ask them to move further by clicking on the ‘Lets Go!’ button.
@@ -33,11 +33,11 @@ The About us page holds a short summary about the people who have contributed in
 ![MasterHead](https://github.com/RitikRatnawat/Restaurant-Rating-Prediction/blob/d1c54a8d739a84ddde3be92c3d5a8d97894475c1/static/images/readme_imgs/des3.gif)
 <br>
           
- ## User Input: <br>
+ ## 🗒 User Input: <br>
  On the predictor page, the user has to provide all the information asked for the prediction. The user can select from the drop down lists , can select multiple enteries from the list and enter input (as asked) in each of the fields. Once, all the asked information is provided, the user clicks on submit button to get the output.<br>
  <br>
  <img alt = "user_input.png" src = "https://github.com/RitikRatnawat/Restaurant-Rating-Prediction/blob/d1c54a8d739a84ddde3be92c3d5a8d97894475c1/static/images/readme_imgs/userinput.png">
 <br>
-## Output: <br>
+## 🗒 Output: <br>
 On the predictor page, the user provides all the asked information and then clicks on submit button. The predicted rating  of the restaurant is displayed to the user below the predictor form <br><br>
 <img alt = "user_output.png" src = "https://github.com/RitikRatnawat/Restaurant-Rating-Prediction/blob/d1c54a8d739a84ddde3be92c3d5a8d97894475c1/static/images/readme_imgs/useroutput.png">
