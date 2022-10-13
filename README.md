@@ -1,4 +1,4 @@
-<h1 align="center"> Restaurant Rating Prediction System</h1><br>
+<h1 align="center"> Restaurant Rating Prediction System</h1>
 <h3 align="center">This is a project taken under the internship provided by Ineuron.ai.</h3>
 <br><br>
 Live Link : https://restaurant-rating-ml-model.herokuapp.com/  <br>
