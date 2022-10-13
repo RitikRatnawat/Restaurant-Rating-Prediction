@@ -16,18 +16,18 @@ We have used Python Libraries for data analysis and model creation (backend) and
 
 ## 🗒 Web UI: <br>
 
-### 1. Home Page <br>
+### 1. Home Page 💻<br>
 When the User land on our webpage, he/she sees a webpage welcoming them to Restaurant Rating Prediction System and ask them to move further by clicking on the ‘Lets Go!’ button.
 <br><br>
 ![MasterHead](https://github.com/RitikRatnawat/Restaurant-Rating-Prediction/blob/d1c54a8d739a84ddde3be92c3d5a8d97894475c1/static/images/readme_imgs/des1.gif)
 <br>
-### 2. Predictor Page<br>
+### 2. Predictor Page 💻<br>
 This is the next page that can be accessed by clicking on ‘Lets Go!’ button on the homepage or by clicking on predictor tab in the navigation bar on the homepage The user sees various fields asking for information that is required to predict the rating of the restaurant. Once all the inputs are given, user clicks on 'Submit' button. The page refreshes and displays the predicted rating of the restaurant in the section below the form.<br>
 <br>
 ![MasterHead](https://github.com/RitikRatnawat/Restaurant-Rating-Prediction/blob/d1c54a8d739a84ddde3be92c3d5a8d97894475c1/static/images/readme_imgs/des2.gif)
 <br>
 
-### 3. About Us Page <br>
+### 3. About Us Page 💻<br>
 The About us page holds a short summary about the people who have contributed in building this project. There are social links attached as well in case someone wants to contact the people behind this project.<br>
 <br>
 ![MasterHead](https://github.com/RitikRatnawat/Restaurant-Rating-Prediction/blob/d1c54a8d739a84ddde3be92c3d5a8d97894475c1/static/images/readme_imgs/des3.gif)
