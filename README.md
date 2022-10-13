@@ -6,7 +6,7 @@
 🔗 Demo Video Link: https://youtu.be/ht8WFBb6POs 
 
 ## Tech Involved :
-[![My Skills](https://skills.thijs.gg/icons?i=python,flask,html,css,js&theme=light)](https://skills.thijs.gg)
+[![My Skills](https://skills.thijs.gg/icons?i=python,flask,html,css,js,git,github,heroku&theme=light)](https://skills.thijs.gg)
 
 ## 🗒 Problem Statement:<br>
 
