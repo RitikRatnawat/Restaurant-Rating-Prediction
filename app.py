@@ -112,9 +112,9 @@ def predictor():
      
     return render_template("predictor.html")
 
-@app.route("/aboutUs")
-def about():
-    return render_template("about.html")
+# @app.route("/aboutUs")
+# def about():
+#     return render_template("about.html")
 
 
 if __name__ == "__main__":
